@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{F1CFDAC9-587B-2F18-1D0A-50E3B309802A}|MYPERSONLA.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{F1CFDAC9-587B-2F18-1D0A-50E3B309802A}|MYPERSONLA.csproj|c:\\project\\debug\\debugs\\nuget.config||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{F1CFDAC9-587B-2F18-1D0A-50E3B309802A}|MYPERSONLA.csproj|solutionrelative:nuget.config||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F1CFDAC9-587B-2F18-1D0A-50E3B309802A}|MYPERSONLA.csproj|c:\\project\\debug\\debugs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1CFDAC9-587B-2F18-1D0A-50E3B309802A}|MYPERSONLA.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NuGet.config",
+              "DocumentMoniker": "C:\\Project\\Debug\\Debugs\\NuGet.config",
+              "RelativeDocumentMoniker": "NuGet.config",
+              "ToolTip": "C:\\Project\\Debug\\Debugs\\NuGet.config",
+              "RelativeToolTip": "NuGet.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-02-18T11:21:38.153Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -52,14 +69,14 @@
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "C:\\Project\\Debug\\Debugs\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-02-18T07:57:27.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Project\\Debug\\Debugs\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -71,7 +88,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Project\\Debug\\Debugs\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -84,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Project\\Debug\\Debugs\\Views\\Love\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Love\\Index.cshtml",
@@ -96,7 +113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Success.cshtml",
               "DocumentMoniker": "C:\\Project\\Debug\\Debugs\\Views\\Love\\Success.cshtml",
               "RelativeDocumentMoniker": "Views\\Love\\Success.cshtml",
@@ -108,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LoveController.cs",
               "DocumentMoniker": "C:\\Project\\Debug\\Debugs\\Controllers\\LoveController.cs",
               "RelativeDocumentMoniker": "Controllers\\LoveController.cs",
@@ -120,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MYPERSONLA.csproj.nuget.dgspec.json",
               "DocumentMoniker": "C:\\Project\\Debug\\Debugs\\obj\\MYPERSONLA.csproj.nuget.dgspec.json",
               "RelativeDocumentMoniker": "obj\\MYPERSONLA.csproj.nuget.dgspec.json",
