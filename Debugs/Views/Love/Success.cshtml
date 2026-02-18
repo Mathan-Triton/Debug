@@ -1,0 +1,72 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>I Love You ❤️</title>
+    <style>
+        body {
+            text-align: center;
+            margin-top: 100px;
+            background: black;
+            color: white;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: red;
+            animation: glow 1s infinite alternate;
+        }
+
+        @@keyframes glow {
+            from {
+                text-shadow: 0 0 10px red;
+            }
+
+            to {
+                text-shadow: 0 0 30px pink;
+            }
+        }
+
+        .heart {
+            position: absolute;
+            color: red;
+            font-size: 30px;
+            animation: float 5s linear infinite;
+        }
+
+        @@keyframes float {
+            from {
+                transform: translateY(100vh);
+            }
+
+            to {
+                transform: translateY(-10vh);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>I LOVE YOU MY THANGOO ❤️💖</h1>
+
+    <script>
+        setInterval(function () {
+            var heart = document.createElement("div");
+            heart.className = "heart";
+            heart.innerHTML = "❤️";
+            heart.style.left = Math.random() * 100 + "vw";
+            document.body.appendChild(heart);
+
+            setTimeout(function () {
+                heart.remove();
+            }, 5000);
+
+        }, 300);
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>For My Love 💖</title>
+    <style>
+        body {
+            text-align:center;
+            margin-top:150px;
+            font-family:Arial;
+            background-color:#ffe6f0;
+        }
+
+        input {
+            padding:10px;
+            font-size:18px;
+        }
+
+        button {
+            padding:10px 20px;
+            font-size:18px;
+            background-color:pink;
+            border:none;
+            border-radius:8px;
+        }
+
+        .error {
+            color:red;
+            margin-top:10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Enter Secret Password 💌</h2>
+
+    <form method="post" action="/Love/Unlock">
+        <input type="password" name="password" required />
+        <br /><br />
+        <button type="submit">Open 💖</button>
+    </form>
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="error">@ViewBag.Error</div>
+    }
+
+</body>
+</html>
